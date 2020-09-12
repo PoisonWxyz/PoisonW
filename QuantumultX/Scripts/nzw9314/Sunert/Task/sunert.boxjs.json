@@ -8,7 +8,7 @@
     {
       "id": "weibo",
       "name": "新浪微博",
-      "keys": ["sy.signurl.wb", "sy_signheader_wb", "sy_payheader_wb", "sy_token_wb"],
+      "keys": ["sy_payheader_wb", "sy_token_wb"],
       "author": "@sunert",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/weibo.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"],
@@ -23,21 +23,7 @@
         {
          "id": "notifytimes",
          "name": "通知频率 (点击查看设置说明)",
-         "val": "4",
-         "type": "radios",
-         "desc": "无/默认", 
-         "items": [
-            {
-              "val": "0",
-              "label": "静默运行",
-              "desc": "无任何通知"
-            },
-            {
-              "val": "1",
-              "label": "通知常开",
-              "desc": "常开通知"
-            }],
-         "val": "50",
+         "val": "",
          "type": "number",
          "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
          },
@@ -45,7 +31,8 @@
           "id": "zqlogs",
           "name": "调试日志",
           "val": false,
-          "type": "boolean"
+          "type": "boolean",
+          "desc": "调试日志开关，默认关闭"
          }
        ],
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/youth.js",
@@ -83,6 +70,15 @@
       "id": "chinatelecomEnquiry",
       "name": "电信套餐查询",
       "keys": ["china_telecom_authToken_10000", "china_telecom_cookie"],
+      "settings": [
+       {
+        "id": "Mon",
+        "name": "查询月份", 
+        "val":  "2020-08", 
+        "type": "month", 
+        "desc": "填入账单月份，可查最近六个月，本月账单下月可查" 
+         }
+       ],
       "author": "@sunert",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/telecomInfinity.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/telecominfinty.png", "https://raw.githubusercontent.com/Orz-3/task/master/telecominfinty.png"],
@@ -109,7 +105,7 @@
          "desc": "请填写小写英文台标，示例: 北京: btv1 | 湖南: hunan | 浙江: zhejiang 河南: henan| 江苏: jiangsu|广东: guangdong 更多电视台请参加电视家网络列表" }],
       "author": "@sunert",
       "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/tvpreview.js",
-      "icons": ["https://raw.githubusercontent.com/Sunert/Quantumult-X/master/Rule/Images/ICON/tvpreview.png", "https://raw.githubusercontent.com/Sunert/Quantumult-X/master/Rule/Images/ICON/tvpreview.png"],
+      "icons": ["https://raw.githubusercontent.com/Sunert/Quantumult-X/master/Rules/Images/ICON/tvpreview.png", "https://raw.githubusercontent.com/Sunert/Quantumult-X/master/Rules/Images/ICON/tvpreview.png"],
       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/tvpreview.js"
     },
     {
@@ -130,20 +126,32 @@
         {
           "id": "notifynum",
           "name": "通知频率",
-          "val": 4,
+          "val": "",
           "type": "number",
-          "desc": "视频红包间隔通知开为1，常关为0(默认4次)"
+          "placeholder": "默认50 (点击以展开说明)",
+          "desc": "阅读篇数间隔通知开为1，常关为0(默认50篇)"
         },
         {
-          "id": "logsturn",
-          "name": "调试日志",
-          "val": false,
-          "type": "boolean"
-        }
+          "id": "delay",
+          "name": "延迟时间(毫秒)",
+          "val": "",
+          "type": "number",
+          "placeholder": "默认500 (点击以展开说明)",
+          "desc": "接口延迟时间"
+        }          
       ],
        "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/txnews.js",
        "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
        "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/txnews.js"
+    },
+    {
+      "id": "jingxi",
+      "name": "京喜",
+      "keys": ["signheaders_jx","coinurl_jx"],
+      "author": "@sunert",
+      "repo": "https://gitee.com/Sunert/Scripts/blob/master/Task/jingxi.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png", "https://raw.githubusercontent.com/Orz-3/task/master/jingxi.png"],
+       "script": "https://gitee.com/Sunert/Scripts/raw/master/Task/jingxi.js"
     },
     {
       "id": "translate",

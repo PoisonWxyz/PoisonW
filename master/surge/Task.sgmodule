@@ -1,9 +1,9 @@
 #!name=PoisonW iOS Tasks Module
-#!desc=iOS Tasks 模块配置 该模块适用于搭配Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
+#!desc=iOS Tasks 模块配置(本模块内含BoxJs默认关闭,请根据Surge版本自行选择) 该模块适用于搭配Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
 #!system=ios
 
 [Script]
-# > By barrym-chen   https://github.com/barrym-chen/Script
+# > By barrym-chen  https://github.com/barrym-chen/Script
 
 # >> 京东成长分
 //京东成长分 = type=cron, cronexp="0 10 8 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/barrym-chen/Script/master/jdczf/jdczf.js
@@ -147,3 +147,14 @@
 
 # >> 京东价格提醒
 //京东价格提醒 = type=cron, cronexp="50 9 0 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js
+
+# > BoxJs By chavyleung  https://github.com/chavyleung/scripts
+
+# >> Surge 商店版 (AppStore)
+# >> http://boxjs.com
+//Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.com(/api|/home|/sub|/my|/app|/log|/revert)?($|\/),script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js, requires-body=true, timeout=120
+
+# >> Surge 测试版 (TestFlight)
+# >> http://boxjs.net
+//Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.net,script-path=https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js, requires-body=true, timeout=120
+

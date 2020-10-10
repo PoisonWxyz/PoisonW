@@ -2,15 +2,15 @@
 #!desc=iOS Tasks 模块配置(personal) 该模块适用于搭配Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
 #!system=ios
 
-
+[Script]
 
 # > By Evilbutcher GitHub：https://github.com/evilbutcher/Quantumult_X/tree/master
 
 # >> NASA每日一图
-//NASA每日一图 = type=cron, cronexp="1 18 12 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js
+NASA每日一图 = type=cron, cronexp="1 18 12 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js
 
 # >> iDaily每日环球视野
-//iDaily每日环球视野 = type=cron, cronexp="1 19 12 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js
+iDaily每日环球视野 = type=cron, cronexp="1 19 12 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js
 
 # > By Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
 

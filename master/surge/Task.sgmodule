@@ -1,5 +1,5 @@
 #!name=PoisonW iOS Tasks Module
-#!desc=iOS Tasks 模块配置(薅羊毛版) 该模块适用于搭配Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
+#!desc=iOS Tasks 模块配置(薅羊毛版) 该模块适用于搭配(薅羊毛版)Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
 #!system=ios
 
 [Script]

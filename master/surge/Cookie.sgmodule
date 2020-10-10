@@ -1,5 +1,5 @@
 #!name=PoisonW iOS Cookies Module
-#!desc=iOS Cookies 模块配置 该模块适用于本人定时签到脚本的Cookie获取. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
+#!desc=iOS Cookies 模块配置(薅羊毛版) 该模块适用于本人定时签到脚本的Cookie获取. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
 #!system=ios
 
 [Script]
@@ -7,35 +7,21 @@
 
 喜马拉雅Cookie获取 = type=http-request,pattern=^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
 
+# > By barrym-chen  https://github.com/barrym-chen/Script
+
 趣头条Cookie获取 = type=http-request,pattern=^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
 
 趣头条Cookie获取 = type=http-request,pattern=^https:\/\/api\.1sapp\.com\/content\/readV2? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
 
 趣头条Cookie获取 = type=http-request,pattern=^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
 
-# Nobyda
+# > By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
 
 京东Cookie获取 = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex) max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # Macsuny
 
-京东到家Cookie获取 = type=http-request,pattern=https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
-
-快手极速版Cookie获取 = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/rest\/n\/nebula\/activity\/earn\/overview script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-
-微信小程序 来客有礼Cookie获取 = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
-
-中国电信套餐Cookie获取 = type=http-request,pattern=^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js
-
-微博Cookie获取 = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/video\/machine\?gsid script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
-
-微博Cookie获取 = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
-
 腾讯新闻Cookie获取 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
-
-新浪新闻Cookie获取 = type=http-request,pattern=https:\/\/newsapi\.sina\.cn\/\?resource=hbpage&newsId=HB-1-sina_gold_center script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
-
-新浪新闻Cookie获取 = type=http-request,pattern=https:\/\/newsapi\.sina\.cn\/\?resource=userpoint\/signIn script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
 
 中青看点极速版Cookie获取 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 
@@ -45,11 +31,8 @@
 
 中青看点极速版Cookie获取 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 
-# Peng-YM
 
-彩云天气Cookie获取 = type=http-request,pattern=https://weather-data.apple.com script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
-
-# lxk0301
+# > By lxk0301   GitHub：https://github.com/lxk0301/scripts
 
 宠汪汪助力更新TokenCookie获取 = type=http-response,pattern=^https:\/\/draw\.jdfcloud\.com\/\/api\/user\/addUser\?code=\w+& script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, timeout=10
 
@@ -58,16 +41,6 @@
 宠汪汪强制为别人助力Cookie获取 = type=http-request,pattern=^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com\/\/pet\/helpFriend\?friendPin script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_help.js, timeout=10
 
 聚宝盆投狗粮辅助Cookie获取 = type=http-response,pattern=^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com\/\/pet\/getPetTreasureBox script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_petTreasureBox.js, timeout=10
-
-# By toulanboy
-
-京东价格提醒Cookie获取 = type=http-request,pattern=https:\/\/apapia-history\.manmanbuy\.com\/ChromeWidgetServices\/WidgetServices\.ashx script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/jd_price_detect/jd_price_detect.js
-
-# iepngs
-
-今日头条极速版-任务Cookie获取 = type=http-request,pattern=^https:\/\/is\.snssdk\.com\/score_task\/v1\/task\/(sign_in|get_read_bonus) script-path=https://raw.githubusercontent.com/iepngs/Script/master/jrtt/index.js,requires-body=true
-
-今日头条极速版-游戏Cookie获取 = type=http-request,pattern=^https:\/\/i\.snssdk\.com\/ttgame\/game_farm\/home_info script-path=https://raw.githubusercontent.com/iepngs/Script/master/jrtt/index.js,requires-body=true
 
 
 [MITM]

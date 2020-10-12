@@ -1,5 +1,5 @@
-#!name=Unlock TikTok
-#!desc=解锁抖音(日区)
+#!name=PoisonW iOS TikTok Module
+#!desc=iOS Unlock TikTok 模块配置 解锁日区
 #!system=ios
 
 [URL Rewrite]

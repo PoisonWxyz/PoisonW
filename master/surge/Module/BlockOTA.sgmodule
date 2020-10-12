@@ -1,0 +1,9 @@
+#!name=PoisonW iOS BlockOTA Module
+#!desc=iOS BlockOTA 模块配置 屏蔽 iOS 系统更新 （仅此致敬所有签到脚本作者，并感谢！）
+#!system=ios
+
+[Rule]
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT

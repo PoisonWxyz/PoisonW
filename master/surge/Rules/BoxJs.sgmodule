@@ -1,0 +1,11 @@
+#!name=PoisonW iOS BoxJs Module
+#!desc=iOS BoxJs 模块配置 商店版 (AppStore)（仅此致敬所有签到脚本作者，并感谢！） 
+#!system=ios
+
+[Script]
+# > BY @Chavyleung https://github.com/chavyleung
+# Surge 商店版 (AppStore)
+
+Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.com(/api|/home|/sub|/my|/app|/log|/revert)?($|\/),script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js, requires-body=true, timeout=120
+
+

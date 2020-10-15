@@ -1,0 +1,8 @@
+#!name=PoisonW iOS BoxJs_TF Module
+#!desc=iOS BoxJs_TF 模块配置 测试版 (TestFlight)（仅此致敬所有签到脚本作者，并感谢！） 
+#!system=ios
+
+[Script]
+# > BY @Chavyleung https://github.com/chavyleung
+# Surge 测试版 (TestFlight)
+Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.net,script-path=https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js, requires-body=true, timeout=120

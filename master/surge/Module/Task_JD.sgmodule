@@ -1,19 +1,8 @@
-#!name=PoisonW iOS Tasks Module
-#!desc=iOS Tasks 模块配置(薅羊毛版<趣头条、京东系列、腾讯新闻、中青看点>) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
+#!name=PoisonW iOS Tasks——JD Module
+#!desc=iOS Tasks——JD 模块配置(薅羊毛京东版) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
 #!system=ios
 
 [Script]
-# > By barrym-chen  https://github.com/barrym-chen/Script
-
-# >> 趣头条
-# 打开 APP 进入签到:  `右上角` > `签到`
-# 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
-# 首页金币奖励:此Cookie在首页的推荐中随机出现,随机获取,并不一定会出现。
-
-趣头条 = type=cron, cronexp="20 */2 1-5 * * *", wake-system=1, timeout=300, script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
-
-# >> 切换会话
-切换会话 = type=cron, cronexp="25 0 12 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js
 
 # > By lxk0301   GitHub：https://github.com/lxk0301/scripts
 
@@ -69,19 +58,5 @@
 
 # > By Sunert https://github.com/Sunert/Scripts/tree/master/Task
 
-# >> 腾讯新闻
-# 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
-
-腾讯新闻 = type=cron, cronexp="15 3-57 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
-
-# >> 中青看点极速版
-# 1.进入app，签到一次,即可获取Cookie.
-# 2.阅读一篇文章，获取阅读请求body，
-# 3.在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
-# 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
-
-中青看点极速版 = type=cron, cronexp="25 */10 1-18 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
-
 #>> 京东京喜
 京东京喜 = type=cron, cronexp="15 2 0 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
-

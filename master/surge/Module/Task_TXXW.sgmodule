@@ -1,0 +1,12 @@
+#!name=PoisonW iOS Task_TXXW Module
+#!desc=iOS Task_TXXW 模块配置(薅羊毛腾讯新闻版) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
+#!system=ios
+
+[Script]
+
+# > By Sunert https://github.com/Sunert/Scripts/tree/master/Task
+
+# >> 腾讯新闻
+# 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
+
+腾讯新闻 = type=cron, cronexp="15 3-57 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js

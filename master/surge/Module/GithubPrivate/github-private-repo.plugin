@@ -1,0 +1,12 @@
+#!name=PoisonW iOS github-private-repo Module
+#!desc=iOS github-private-repo 模块配置 允许引用Github私有仓库（仅此致敬所有签到脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
+#!system=ios
+
+[Script]
+
+# > By Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
+# > 允许引用Github私有仓库/gist中的订阅分流，重写，脚本等配置文件
+引用Github私有仓库 = type=http-request, requires-body=0, pattern=^https?:\/\/(raw|gist)\.githubusercontent.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/GithubPrivate/github-private-repo.js
+
+[MITM]
+hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com

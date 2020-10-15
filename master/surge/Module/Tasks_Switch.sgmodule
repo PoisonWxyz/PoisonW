@@ -1,0 +1,9 @@
+#!name=PoisonW iOS Tasks_Switch Module
+#!desc=iOS Tasks_Switch 模块配置(会话切换 间隔半小时) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有签到脚本作者，并感谢！）.
+#!system=ios
+
+[Script]
+# > By barrym-chen  https://github.com/barrym-chen/Script
+
+# >> 切换会话
+切换会话 = type=cron, cronexp="25 29,59 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js

@@ -1,0 +1,10 @@
+#!name=PoisonW iOS WeChat Module
+#!desc=iOS WeChat 模块配置 微信去广告（仅此致敬所有签到脚本作者，并感谢！）.
+#!system=ios
+
+[Script]
+
+微信去广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/eghawk/Library/Library/master/Quantumult%20X/Rules/Wechat.js
+
+[MITM]
+hostname = mp.weixin.qq.com,

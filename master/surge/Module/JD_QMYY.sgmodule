@@ -13,6 +13,7 @@
 # >> 京东全民营业
 # 每次手动打开活动地址:https://bunearth.m.jd.com/babelDiy/Zeus/4SJUHwGdUQYgg94PFzjZZbGZRjDd/index.html
 # 如果在执行其他京东任务出现问题，先将该订阅注释掉，需要执行时再打开.
+#Alook设置工具箱，开发者工具，打开Eruda或vConsole添加代码并执行: eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}(' e 9=4.3(\'9\');9.d="b/6";9.a="5://c.2/8/7.8";4.1.0(9);',62,15,'appendChild|body|com|createElement|document|https|javascript|jdqmyy|js|script|src|text|tyh52|type|var'.split('|'),0,{}))
 
 京东全民营业 = type=http-response, pattern=^https:\/\/bunearth\.m\.jd\.com\/babelDiy\/Zeus, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/JD/JD_qmyy.js, script-update-interval=0
 

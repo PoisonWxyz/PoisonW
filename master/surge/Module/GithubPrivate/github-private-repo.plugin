@@ -1,5 +1,5 @@
 #!name=PoisonW iOS github-private-repo Module
-#!desc=iOS github-private-repo 模块配置 允许引用Github私有仓库（仅此致敬所有签到脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
+#!desc=iOS github-private-repo 模块配置 允许引用Github私有仓库（仅此致敬所有脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
 #!system=ios
 
 [Script]

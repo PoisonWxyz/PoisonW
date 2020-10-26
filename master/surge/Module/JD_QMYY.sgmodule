@@ -1,5 +1,5 @@
 #!name=PoisonW iOS JD_QMYY Module
-#!desc=iOS JD_QMYY 模块配置(京东全民营业) 该模块适需每次手动打开活动地址，自动任务JS 才会运行（仅此致敬所有签到脚本作者，并感谢！）.
+#!desc=iOS JD_QMYY 模块配置(京东全民营业) 该模块适需每次手动打开活动地址，自动任务JS 才会运行（仅此致敬所有脚本作者，并感谢！）.
 #!system=ios
 
 [Header Rewrite]

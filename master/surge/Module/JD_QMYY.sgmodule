@@ -15,3 +15,6 @@
 # 如果在执行其他京东任务出现问题，先将该订阅注释掉，需要执行时再打开.
 
 京东全民营业 = type=http-response, pattern=^https:\/\/bunearth\.m\.jd\.com\/babelDiy\/Zeus, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/JD/JD_qmyy.js, script-update-interval=0
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, bunearth.m.jd.com

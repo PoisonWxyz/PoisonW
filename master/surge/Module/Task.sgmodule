@@ -3,7 +3,7 @@
 #!system=iOS
 
 [Script]
-# > By barrym-chen  https://github.com/barrym-chen/Script
+# >> By barrym-chen  https://github.com/barrym-chen/Script
 
 # >> 趣头条
 # 打开 APP 进入签到:  `右上角` > `签到`
@@ -62,12 +62,12 @@
 # >> 京东宠汪汪邀请助力与赛跑助力
 京东宠汪汪邀请助力与赛跑助力 = type=cron, cronexp="15 10 19 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js
 
-# > By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
+# >> By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
 
 # >> 京东
 京东 = type=cron, cronexp="0 1 0 * * *" , wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
-# > By Sunert https://github.com/Sunert/Scripts/tree/master/Task
+# >> By Sunert https://github.com/Sunert/Scripts/tree/master/Task
 
 # >> 腾讯新闻
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可

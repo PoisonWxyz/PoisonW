@@ -65,6 +65,12 @@
 # >> 京东宠汪汪邀请助力与赛跑助力
 京东宠汪汪邀请助力与赛跑助力 = type=cron, cronexp="15 10 19 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js
 
+# >> 京东星推官
+京东星推官 = type=cron,cronexp="1 0 0,3 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js
+
+# >> 京东摇京豆
+京东摇京豆 = type=cron,cronexp="0 5 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js
+
 # >> By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
 
 # >> 京东
@@ -88,5 +94,4 @@
 # >> 京东京喜
 京东京喜 = type=cron, cronexp="15 2 0 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
 
-# >> 京东星推官
-京东星推官 = type=cron,cronexp="1 0 0,3 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js
+

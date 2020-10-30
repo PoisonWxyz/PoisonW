@@ -1,6 +1,6 @@
 #!name=PoisonW iOS Tasks_JD Module
 #!desc=iOS Tasks_JD 模块配置(薅羊毛京东版) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有脚本作者，并感谢！）
-#!system=iOS
+#!system=ios
 
 [Script]
 

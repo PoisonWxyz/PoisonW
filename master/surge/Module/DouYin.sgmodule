@@ -1,6 +1,6 @@
 #!name=PoisonW iOS DouYin Module
 #!desc=iOS DouYin 模块配置 抖音去广告,去水印（仅此致敬所有脚本作者，并感谢！）
-#!system=iOS
+#!system=ios
 
 [Script]
 

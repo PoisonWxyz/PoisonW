@@ -1,6 +1,6 @@
 #!name=PoisonW iOS Advertising Module
 #!desc=iOS Advertising 模块配置 去广告（仅此致敬所有脚本作者，并感谢！）
-#!system=ios
+#!system=iOS
 
 [General]
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,123.59.31.1,119.18.193.135,122.14.246.33,175.102.178.52

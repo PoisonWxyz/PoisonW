@@ -1,6 +1,6 @@
 #!name=PoisonW iOS TikTok Module
 #!desc=iOS Unlock TikTok 模块配置 解锁美区 （仅此致敬所有脚本作者，并感谢！）
-#!system=ios
+#!system=iOS
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) UK 307

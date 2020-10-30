@@ -1,6 +1,6 @@
 #!name=PoisonW iOS Price Module
-#!desc=iOS Price 模块配置 淘宝,京东比价（仅此致敬所有脚本作者，并感谢！）.
-#!system=ios
+#!desc=iOS Price 模块配置 淘宝,京东比价（仅此致敬所有脚本作者，并感谢！）
+#!system=iOS
 
 [Script]
 # > BY https://github.com/yichahucha/surge/tree/master

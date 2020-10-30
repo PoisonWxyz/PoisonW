@@ -1,6 +1,6 @@
 #!name=PoisonW iOS Cookies Module
-#!desc=iOS Cookies 模块配置 该模块为通用定时签到脚本的Cookie获取. 签到脚本修改自Nzw9314（仅此致敬所有脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM.
-#!system=ios
+#!desc=iOS Cookies 模块配置 该模块为通用定时签到脚本的Cookie获取. 签到脚本修改自Nzw9314（仅此致敬所有脚本作者，并感谢！）. 您可以在使用后手动将其禁用，以免产生不必要的MITM
+#!system=iOS
 
 [Script] 
 

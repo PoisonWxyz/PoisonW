@@ -12,6 +12,10 @@
 
 趣头条 = type=cron, cronexp="20 */2 1-5 * * *", wake-system=1, timeout=300, script-path= https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js
 
+# >> By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
+# >> 京东
+京东 = type=cron, cronexp="0 1 0 * * *" , wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
 # >> By lxk0301   GitHub：https://github.com/lxk0301/scripts
 
 # >> 京东东东农场
@@ -71,10 +75,13 @@
 # >> 京豆变动通知
 京豆变动通知 = type=cron,cronexp="25 11 9 * * *",wake-system=1,timeout=440,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_change.js
 
-# >> By NobyDa    GitHub：https://github.com/NobyDa/Script/tree/master
+# >> By Yangtingxiao    GitHub：https://raw.githubusercontent.com/yangtingxiao
 
-# >> 京东
-京东 = type=cron, cronexp="0 1 0 * * *" , wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+# >> 京东大赢家
+京东大赢家 = type=cron, cronexp="15 5 9-22 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js
+
+# >> 京东时光机
+京东时光机 = type=cron, cronexp="0 5 0-20/4 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js
 
 # >> By Sunert https://github.com/Sunert/Scripts/tree/master/Task
 

@@ -1,0 +1,11 @@
+# ->>YouTube By PoisonW
+# ->>Premium 勿用
+
+[Rule]
+^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject-200
+
+[URL Rewrite]
+ctier=[A-Z] url 302 ctier=A
+
+[MITM]
+hostname = *.googlevideo.com

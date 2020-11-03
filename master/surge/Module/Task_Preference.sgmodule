@@ -13,7 +13,7 @@ iDaily每日环球视野 = type=cron, cronexp="1 19 12 * * *", script-path=https
 
 # >> By Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
 # >> 彩云天气
-彩云天气 = type=cron,cronexp="0 0 8-22/2 * * *",script-path=https://raw.githubusercontent.com/chiupam/Proxy/master/Scripts/caiyun_Surge.js
+//彩云天气 = type=cron,cronexp="0 0 8-22/2 * * *",script-path=https://raw.githubusercontent.com/chiupam/Proxy/master/Scripts/caiyun_Surge.js
 type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, require-body=false
 
 # >> By Sunert https://github.com/Sunert/Scripts/tree/master/Task

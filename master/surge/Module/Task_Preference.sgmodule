@@ -8,23 +8,18 @@
 # >> NASA每日一图
 # >> 首先前往https://api.nasa.gov/ 申请一个 API,将申请好的 API 填入 BoxJs即可
 NASA每日一图 = type=cron, cronexp="1 18 12 * * *", script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js
+
 # >> iDaily每日环球视野
 iDaily每日环球视野 = type=cron, cronexp="1 19 12 * * *", script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js
 
 # >> By Peng-YM  https://github.com/Peng-YM/QuanX/tree/master/Tasks
-# >> 彩云天气
-//彩云天气 = type=cron,cronexp="0 0 8-22/2 * * *",script-path=https://raw.githubusercontent.com/chiupam/Proxy/master/Scripts/caiyun_Surge.js
-type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weather))\.com, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, require-body=false
 
 # >> By Sunert https://github.com/Sunert/Scripts/tree/master/Task
 # >> 实时货币换算
 实时汇率 = type=cron,cronexp="0 18 9 * * *", script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js,script-update-interval=0
-# >> 微博&钱包
-//微博&钱包 = type=cron, cronexp="0 11 8 * * *", script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+
 # >> 获取微博 Cookie.
 微博Cookie = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/page\/\w+\?gsid,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
-# >> 微博钱包签到Cookie
-微博包签到Cookie = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 
 
 [MITM]

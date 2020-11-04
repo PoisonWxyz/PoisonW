@@ -74,7 +74,7 @@
 # >> By Yangtingxiao    https://github.com/yangtingxiao
 
 # >> 京东大赢家
-京东大赢家 = type=cron, cronexp="15 5 0-22/2 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js
+\\京东大赢家 = type=cron, cronexp="15 5 0-22/2 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_bigWinner.js
 
 # >> 京东时光机
 京东时光机 = type=cron, cronexp="0 5 0-20/4 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js

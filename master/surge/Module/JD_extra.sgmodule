@@ -1,0 +1,30 @@
+#!name=PoisonW iOS JD_extra Module
+#!desc=iOS JD_extra 模块配置 配置双京东账号签到 （仅此致敬所有脚本作者，并感谢！）
+#!system=ios
+
+# ->> By https://github.com/domping
+
+# ->>===================
+# ->>配置双京东账号签到说明
+# ->>===================
+# ->>正确配置Surge后, 并使用此脚本获取"账号1"Cookie成功后, 请勿点击退出账号(可能会导致Cookie失效), 需清除浏览器资料或更换浏览器登录"账号2"获取即可.
+# ->>注: 获取"账号1"或"账号2"的Cookie后, 后续仅可更新该"账号1"或"账号2"的Cookie.
+# ->>如需写入其他账号,您可开启脚本内"DeleteCookie"选项以清除Cookie
+# ->>===================
+
+【 配置双京东账号签到说明 】 : 
+*************************
+
+正确配置QX、Surge、Loon后, 并使用此脚本获取"账号1"Cookie成功后, 请勿点击退出账号(可能会导致Cookie失效), 需清除浏览器资料或更换浏览器登录"账号2"获取即可.
+
+注: 获取"账号1"或"账号2"的Cookie后, 后续仅可更新该"账号1"或"账号2"的Cookie.
+如需写入其他账号,您可开启脚本内"DeleteCookie"选项以清除Cookie
+
+[Script]
+# ->> By https://github.com/domping
+京东多合一签到 = type=cron,cronexp="5 1 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra.js
+
+获取京东Cookie = type=http-request,pattern=https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,script-path=https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra.js
+
+[MITM]
+hostname = api.m.jd.com

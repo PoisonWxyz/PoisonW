@@ -1,0 +1,28 @@
+#!name=PoisonW iOS Tasks_Promotion Module
+#!desc=iOS Tasks_Promotion 模块配置(薅羊毛临时活动专版，只做增加或注释) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有脚本作者，并感谢！）
+#!system=ios
+
+[Script]
+# ->> By lxk0301   GitHub：https://github.com/lxk0301/jd_scripts
+# ->>  京东全民开红包
+京东全民开红包 = type=cron,cronexp="30 0 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js
+
+# ->>  京东手机狂欢城
+//京东手机狂欢城 = type=cron, cronexp="0 1 0-18/6 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js
+
+# ->>  京东星推官
+//京东星推官 = type=cron,cronexp="11 0 0 * * *",wake-system=1,timeout=320,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js
+
+# ->> 京东全民营业领金币
+//京东全民营业领金币 = type=cron,cronexp="* 9 * * * *",script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js
+
+# ->>  By Yangtingxiao    https://github.com/yangtingxiao
+
+# ->>  京东时光机
+京东时光机 = type=cron, cronexp="0 5 0-20/4 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js
+
+# ->> 京东星店长
+//京东星店长 = type=cron, cronexp="15 5 9 * * *", wake-system=1, timeout=180, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_starStore.js
+
+# ->> 京东抽奖机
+京东抽奖机 = type=cron,cronexp="0 1 1 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js

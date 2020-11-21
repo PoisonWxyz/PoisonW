@@ -1,0 +1,6 @@
+#!name=PoisonW iOS auto-policySurge自动策略
+#!desc=根据当前网络自动切换模式 模块配置 屏蔽 iOS 系统更新 （仅此致敬所有脚本作者，并感谢！
+#!system=ios
+[Script]
+# >> BY Peng-YM https://github.com/Peng-YM
+event network-changed script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/AutoPolicy/auto-policy.js

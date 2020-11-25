@@ -1,0 +1,15 @@
+#!name=PoisonW iOS Task_QQreader Module
+#!desc=iOS Task_QQreader 模块配置(薅羊毛趣头条版) 该模块适用于搭配通用版Cookie获取模块. 集成个人收集常用签到脚本（仅此致敬所有脚本作者，并感谢！）
+#!system=ios
+
+[Script]
+# > By xingliuchao  https://github.com/xingliuchao
+
+# >> 企鹅读书
+
+
+企鹅读书 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/user\/init,script-path=https://raw.githubusercontent.com/xingliuchao/jd/main/QQread.js, requires-header=true
+
+
+[MITM]
+hostname = %APPEND% mqqapi.reader.qq.com

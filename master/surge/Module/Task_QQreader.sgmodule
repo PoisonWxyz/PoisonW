@@ -7,8 +7,14 @@
 
 # >> 企鹅读书
 
+//企鹅读书获取cookie
+企鹅读书 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/user\/init,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js, requires-header=true
 
-企鹅读书 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/user\/init,script-path=https://raw.githubusercontent.com/xingliuchao/jd/main/QQread.js, requires-header=true
+//企鹅读书获取时长cookie
+企鹅读书 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js, requires-header=true
+
+
+企鹅读书 = type=cron,cronexp="0 */20 0-23 * * *",wake-system=1,timeout=180,script-path=https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js
 
 
 [MITM]

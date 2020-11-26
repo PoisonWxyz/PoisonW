@@ -65,6 +65,9 @@
 # ->> 京东领卷中心点点券
 点点券 = type=cron,cronexp="0 10 0,20 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js
 
+# ->> 东东小窝
+东东小窝 = type=cron,cronexp="0 16 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_small_home.js
+
 # ->> By Id77 https://github.com/id77
 # ->> 京东物流
 京东物流派件提醒 = type=cron,cronexp="9 25 12 * * *",script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, wake-system=true

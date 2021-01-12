@@ -6,7 +6,7 @@
 
 # >> By NoByDa https://github.com/NoByDa
 # >> 微信公众号去广告
-微信公众号去广告 = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/eghawk/Library/Library/master/Quantumult%20X/Rules/Wechat.js
+微信公众号去广告 = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Rules/Wechat.js
 
 # >> By HotKids https://github.com/HotKids
 # >> 微信 App 内被屏蔽链接快捷跳转

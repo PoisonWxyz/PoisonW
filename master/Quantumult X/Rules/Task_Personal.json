@@ -37,6 +37,7 @@
     "0 0 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=false",
     "0 0 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false",
     "5 0 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false",
+    "11 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_family.js,tag=京东家庭号, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false",
     "2 0 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false",
     "1 7 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false",
     "0 35 2 1,10,20 * ? https://gitee.com/qq34347476/quantumult-x/raw/master/get_share_jd_code.js, tag=获取并提交助力码, img-url=https://raw.githubusercontent.com/yogayyy/task/master/huzhucode.png, enabled=truefalse",

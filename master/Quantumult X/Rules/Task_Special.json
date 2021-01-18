@@ -173,7 +173,7 @@
     },
     {
       "config": "20 15 */2 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/YOUTH_READ.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false",
-      "addons": "https:\/\/ios\.baertt\.com\/v5\/article\/complete\.json url script-request-body https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js, tag=中青自动阅读_BODY"
+      "addons": "https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Scripts/Task_Assist.conf, url script-request-body https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js, tag=中青自动阅读_BODY"
     },
     {
       "config": "0 11 0 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手极速版, img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png, enabled=false"

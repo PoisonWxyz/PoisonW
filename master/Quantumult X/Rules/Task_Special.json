@@ -114,41 +114,7 @@
       "config": "2 0 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false"
     },
     {
-      "config": "1 7 * * * https://raw.githubusercontent.com/EvineDeng/jd_scripts/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false"
-    },
-    {
-      "config": "0 8,9,10 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js, tag=京东炸年兽, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false"
-    }, 
-    {
-      "config": "20 * * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js, tag=京东收爆竹, img-url=https://raw.githubusercontent.com/yogayyy/task/master/huzhucode.png, enabled=false"
-    }, 
-    {
-      "config": "20 13 * * 6 https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_get_share_code.js, tag=获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false"
-    },
-    {
-      "config": "1 8,9 14-31/1 1 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js, tag=宝洁美发屋, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_bj.jpg, enabled=true"
-    },
-    {
-      "config": "20 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_gyec.js, tag=工业品爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_gyec.jpg, enabled=true"
-    },
-    {
-      "config": "0,1 19-21/1 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js, tag=直播间红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_live_redrain.jpg, enabled=true"
-    },
-    {
       "config": "1 7 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js, tag=盲盒抽京豆, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_mh.jpg, enabled=true"
-    },
-    {
-      "config": "10 7 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_ms.jpg, enabled=true"
-    },
-    {
-      "config": "10 0 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js, tag=京东粉丝专享, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_wechat_sign.jpg, enabled=true",
-      "addons": "https://raw.githubusercontent.com/shylocks/Loon/main/quantumultx/jd_wechat_sign.qxrewrite, tag=京东粉丝_COOKIE"
-    },
-    {
-      "config": "5 7 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js, tag=小鸽有礼, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_xg.jpg, enabled=true"
-    },
-    {
-      "config": "0 * * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_xxl.js, tag=东东爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_xxl.jpg, enabled=true"
     },
     {
       "config": "0 35 2 1,10,20 * ? https://gitee.com/qq34347476/quantumult-x/raw/master/get_share_jd_code.js, tag=获取并提交助力码, img-url=https://raw.githubusercontent.com/yogayyy/task/master/huzhucode.png, enabled=false"

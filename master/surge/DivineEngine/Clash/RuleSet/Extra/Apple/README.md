@@ -1,17 +1,38 @@
-## 说明
+                                                                                                           
+                                ██████╗  ██████╗ ██╗███████╗ ██████╗ ███╗   ██╗██╗    ██╗
+                                ██╔══██╗██╔═══██╗██║██╔════╝██╔═══██╗████╗  ██║██║    ██║
+                                ██████╔╝██║   ██║██║███████╗██║   ██║██╔██╗ ██║██║ █╗ ██║
+                                ██╔═══╝ ██║   ██║██║╚════██║██║   ██║██║╚██╗██║██║███╗██║
+                                ██║     ╚██████╔╝██║███████║╚██████╔╝██║ ╚████║╚███╔███╔╝
+                                ╚═╝      ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚══╝╚══╝
 
-Apple 已知域名均已收录于 China.yaml 中并作直连策略，如无确切目的不需要额外添加。
 
-对于一些 Apple 被「墙」或者主动「墙」的服务如 App Store Preview、Moveis Trailers、查询外汇、国际航线的 Spotlight、维基百科查询的 Dictionary 均已收录于 Global.yaml 进行代理。
 
-该目录只是一时兴起想做一些关于 Apple 各子域名具体作用的收录，鉴于 Apple 在国内大体良好的 CDN 部署个人不建议对其进行代理，当然既然进到了这个目录可能 Apple 的某些服务在你所在地区堪忧，相比以前对于 Apple 整体域名全部代理，该目录收录的一些细分分流文件如 App Store 应用下载、系统更新的专项代理应该更适合你。
+	特别声明:
+	我只是一个网络搬运工. 此处内容均源于网路，纯属个人对编程语言的热爱而收集，并仅限于学习使用。谢绝任何个人或团体借此实现任何商业目的.
+	谢谢!
+	
+	I am just a network porter. The content here is all from the Internet. It is purely collected by my personal love of programming languages and is limited to learning. Any individual or group is rejected to achieve any commercial purpose.
+	thank you!
 
-### 分流文件说明
+	****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+	The script here is just a practice of learning JavaScript by myself
+    It is only used for testing, study and research. Commercial use is prohibited. Its legality, accuracy, completeness and effectiveness cannot be guaranteed. Please make your own judgment based on the situation.
+    All resource files in the warehouse are prohibited from being reproduced or published in any form by any official account or self-media.
+    PoisonW is not responsible for any script problems, including but not limited to any loss or damage caused by any script errors.
+    Any user who indirectly uses the script, including but not limited to establishing a VPS or disseminating it when certain actions violate national/regional laws or relevant regulations, PoisonW is not responsible for any privacy leakage or other consequences caused thereby.
+    If any unit or individual believes that the script of the project may be suspected of infringing on its rights, it should promptly notify and provide proof of identity and ownership. We will delete the relevant script after receiving the certification document.
+    Anyone who views this item in any way or who directly or indirectly uses any script of the Script item should read this statement carefully. PoisonW reserves the right to change or supplement this disclaimer at any time. Once you have used and copied any related scripts or rules of the Script project, you are deemed to have accepted this disclaimer.
+    You must completely delete the above content from your computer or mobile phone within 24 hours after downloading.
+    这里的脚本只是自己学习JavaScript的一个实践
+    仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
+    仓库内所有资源文件，禁止任何公众号、自媒体进行任何形式的转载、发布。
+    PoisonW对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害.
+    间接使用脚本的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, PoisonW对于由此引起的任何隐私泄漏或其他后果概不负责.
+    如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本.
+    任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。 PoisonW保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
+    您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
+	****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 
-**Apple.yaml**
 
-是 Apple 服务的总体整理，如您想对 Apple 服务均进行代理可以使用该分流文件，需要注意的是建议放置于 Global.yaml 与 China.yaml 之间，因 Global.yaml 有 Apple 对于中国大陆不可用服务的代理行为，如您的 Apple 策略经常在代理与直连来回切换会导致 Global.yaml 中的规则失效。
 
-**其他**
-
-其他分流文件均为代理策略，文件名极其内容已说明其主要作用。

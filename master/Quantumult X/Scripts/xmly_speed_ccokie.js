@@ -1,3 +1,5 @@
+
+# ->>备份 收集整理 By PoisonW （仅此致敬所有脚本作者，并感谢！）
 /**
  获取Cookie方法:
  1.将下方设置和[MITM]地址复制的代理软件的相应的区域下
@@ -5,14 +7,14 @@
  [MITM]
  hostname = m.ximalaya.com
  Surge
- 喜马拉雅极速版Cookie = type=http-request,pattern=https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmly_speed_ccokie.js
+ 喜马拉雅极速版Cookie = type=http-request,pattern=https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin,script-path=https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Scripts/xmly_speed_ccokie.js
  Loon:
- http-request https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmly_speed_ccokie.js
+ http-request https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin script-path=https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Scripts/xmly_speed_ccokie.js
  , requires-body=true, timeout=10, tag=喜马拉雅极速版Cookie
  QX:
  [rewrite_local]
  # 喜马拉雅极速版Cookie
- https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin url script-request-header https://raw.githubusercontent.com/LXK9301/jd_scripts/master/backUp/xmly_speed_ccokie.js
+ https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin url script-request-header https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Scripts/xmly_speed_ccokie.js
  */
 
 const $ = new Env('喜马拉雅极速版获取cookie')

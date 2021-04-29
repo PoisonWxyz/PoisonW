@@ -117,12 +117,12 @@
 
 # ->> By Sunert https://github.com/Sunert/Scripts/tree/master/Task
 # ->> 京东京喜
-京东京喜 = type=cron, cronexp="15 2 0 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
+京东京喜 = type=cron, cronexp="15 2 0 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/jingxi.js
 
 # ->> 腾讯新闻
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 
-腾讯新闻 = type=cron, cronexp="15 3-57/6 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
+腾讯新闻 = type=cron, cronexp="15 3-57/6 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/txnews.js
 
 # ->> 中青看点极速版
 # 1.进入app，签到一次,即可获取Cookie.
@@ -130,5 +130,5 @@
 # 3.在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
 # 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
 
-中青看点极速版 = type=cron, cronexp="25 */10 1-18 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+中青看点极速版 = type=cron, cronexp="25 */10 1-18 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/youth.js
 

@@ -9,4 +9,4 @@
 # >> 腾讯新闻
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 
-腾讯新闻 = type=cron, cronexp="15 3-57/3 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
+腾讯新闻 = type=cron, cronexp="15 3-57/3 0-23 * * *", wake-system=1, timeout=300, script-path=https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/txnews.js

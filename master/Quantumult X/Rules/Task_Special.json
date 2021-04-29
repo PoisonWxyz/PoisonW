@@ -123,32 +123,32 @@
       "config": "9 25 12 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=京东物流派件提醒, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/jdWuLiu.png, enabled=false"
     },
     {
-      "config": "0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png, enabled=false"
+      "config": "0 9 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/jingxi.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jingxi.png, enabled=false"
     },
     {
-      "config": "0 3-57/6 1-23 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/txnews.png, enabled=false"
+      "config": "0 3-57/6 1-23 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/txnews.png, enabled=false"
     },
     {
-      "config": "20 15 */2 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false"
+      "config": "20 15 */2 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false"
     },
     {
-      "config": "20 5 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false"
+      "config": "20 5 10 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false"
     },
     {
-      "config": "0 */10 1-8/1 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false"
+      "config": "0 */10 1-8/1 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false"
     },
     {
       "config": "20 15 */2 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/YOUTH_READ.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=false",
       "addons": "https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/Quantumult%20X/Scripts/Task_Assist.conf, url script-request-body https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js, tag=中青自动阅读_BODY"
     },
     {
-      "config": "0 11 0 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js, tag=快手极速版, img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png, enabled=false"
+      "config": "0 11 0 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/kuaishou.js, tag=快手极速版, img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png, enabled=false"
     },
     {
-      "config": "0 20 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js, tag=实时货币换算, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/exchangerate.png, enabled=false"
+      "config": "0 20 10 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/exchangeRate.js, tag=实时货币换算, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/exchangerate.png, enabled=false"
     },
     {
-      "config": "6 3 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/sinanews.png, enabled=false"
+      "config": "6 3 * * * https://raw.githubusercontent.com/PoisonWxyz/O_Scripts/main/Task/weibo.js, tag=新浪微博, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/sinanews.png, enabled=false"
     },
     {
       "config": "0 9 8,20 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js, tag=GitHub新闻, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/github.png, enabled=false"

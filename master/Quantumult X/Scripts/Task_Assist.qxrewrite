@@ -1,6 +1,4 @@
 ; ->> 辅助其他任务 收集整理 By PoisonW
-; ->> LXK Github转换Gitee
-;^https:\/\/raw\.githubusercontent\.com\/LXK9301\/jd_scripts\/ url 302 https://gitee.com/lxk0301/jd_scripts/raw/
 
 ; ->> 获取多账号京东Cookie
 https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-request-header https://raw.githubusercontent.com/PoisonWxyz/PoisonW/main/master/jd_scripts/JD_extra_cookie.js
@@ -25,4 +23,4 @@ https:\/\/ios\.baertt\.com\/v5\/article\/complete\.json url script-request-body 
 ; ->>我的卡包-点会员卡自动跳转到注销页面-需验证码
 ^https:\/\/shopmember\.m\.jd\.com\/shopcard\/\?(venderId=[0-9]+).* url 302 https:\/\/shopmember\.m\.jd\.com\/member\/memberCloseAccount\?$1
 
-hostname =  api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, shopmember.m.jd.com, account.huami.com, wq.jd.com, ios.baertt.com, *.youth.cn, raw.githubusercontent.com
+hostname =  api.m.jd.com, draw.jdfcloud.com, jdjoy.jd.com, shopmember.m.jd.com, account.huami.com, wq.jd.com, ios.baertt.com, *.youth.cn
